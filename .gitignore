@@ -1,0 +1,30 @@
+.next/
+**/.next/
+node_modules/
+**/node_modules/
+
+# local env / secrets
+.env
+.env.*
+
+# python
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+**/venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# logs
+*.log
+
+# build / cache artifacts
+*.tsbuildinfo
+ts_error.txt
+
